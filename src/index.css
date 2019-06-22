@@ -1,0 +1,46 @@
+body {
+  font: 14px;
+  margin: 20px;
+}
+
+ol, ul {
+  padding-left: 30px;
+}
+
+.status {
+  margin-bottom: 50px;
+  font-family: Georgia;
+  font-size: 60px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  cursor: pointer;
+  background: #0d3751;
+  border-radius: 4px;
+  border: 1px solid #175f8c;
+  float: left;
+  font-size: 44px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 64px;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  width: 64px;
+  color: white
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
